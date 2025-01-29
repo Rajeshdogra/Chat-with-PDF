@@ -1,17 +1,17 @@
 # RAG_WITH_GEMINI
 
-# 📄 Chat with PDFs using Google Gemini AI 💁‍♂️
+# 📄 Chat with PDFs
 
 This project is a **Conversational AI system** powered by **Retrieval-Augmented Generation (RAG)**. It allows users to upload PDF documents and interactively ask questions about the content. The system intelligently retrieves the most relevant information from the documents and provides detailed, context-aware answers using **Google Gemini AI**.
 
-## 🧠 Key Features:
+##  Key Features:
 - **Conversational Question Answering**: Upload any PDF and get answers to your questions in natural language.
 - **Powered by RAG**: Combines the power of **retrieval** (using FAISS) and **generation** (using Google’s Gemini AI) to give accurate, context-driven answers.
 - **Google Generative AI Embeddings**: Efficiently processes large amounts of text and creates embeddings to enable fast and relevant searches.
 - **Simple Streamlit Interface**: Intuitive and easy-to-use interface where users can upload multiple PDF files and interact with them.
 - **Seamless Document Processing**: Automatically reads, processes, and splits PDF content for efficient question answering.
 
-## 🔍 How It Works:
+##  How It Works:
 1. **Upload PDFs**: The user uploads one or more PDF documents through the sidebar.
 2. **Text Extraction & Chunking**: The system extracts the text from the PDF files and breaks it into manageable chunks.
 3. **Vector Store Creation**: These chunks are embedded using **GoogleGenerativeAIEmbeddings** and stored in a **FAISS vector store** for quick retrieval.
@@ -26,7 +26,7 @@ This project is a **Conversational AI system** powered by **Retrieval-Augmented 
 - **Google Generative AI (Gemini)**: For generating natural language responses.
 - **dotenv**: To manage API keys securely.
 
-## 🚀 Getting Started:
+##  Getting Started:
 ### 1. Clone the Repository:
 
 use this AIP: GOOGLE_API_KEY = "AIzaSyCOEzCXQ44akT2I33Ipr5RrOjgXPk8dGfc"
