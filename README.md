@@ -28,6 +28,8 @@ This project is a **Conversational AI system** powered by **Retrieval-Augmented 
 
 ## 🚀 Getting Started:
 ### 1. Clone the Repository:
+
+use this AIP: GOOGLE_API_KEY = "AIzaSyCOEzCXQ44akT2I33Ipr5RrOjgXPk8dGfc"
 ```bash
 git clone https://github.com/your-username/chat-with-pdf
 cd chat-with-pdf
